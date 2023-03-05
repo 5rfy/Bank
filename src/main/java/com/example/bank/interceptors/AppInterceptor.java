@@ -20,7 +20,10 @@ public class AppInterceptor implements HandlerInterceptor {
             String token = (String) session.getAttribute("token");
             User user = (User) session.getAttribute("user");
 
-            
+            if (token == null || user == null) {
+                response.sendRedirect("/login");
+                return false;
+            }
         }
 
         return true;

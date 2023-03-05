@@ -41,7 +41,7 @@ body{
     color: white;
 }
 .offcanvas {
-    background-image: url("../../static/images/offcanvas_bg.png");
+    background-image: url("../images/offcanvas_bg.png");
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;

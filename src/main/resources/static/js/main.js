@@ -33,9 +33,9 @@ transactType.addEventListener("change", function (){
             transferCard.style.display = "none";
             break;
         default:
-                paymentCard.style.display = "none";
-                transferCard.style.display = "none";
-                depositCard.style.display = "none";
-                withdrawCard.style.display = "none";
+            paymentCard.style.display = "none";
+            transferCard.style.display = "none";
+            depositCard.style.display = "none";
+            withdrawCard.style.display = "none";
     }
 });
